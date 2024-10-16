@@ -36,3 +36,19 @@ body {
     margin-left: auto;
     filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754aa66);
 }
+/* Display area */
+.display {
+    height: 116px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--light_mode--gray);
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754a91a);
+    margin: 11px auto 67px;
+
+    display: flex;
+}
+.show {
+    flex: 1;
+    border-radius: 10px;
+    border: 2px solid var(--just--blue);
+}
