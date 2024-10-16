@@ -12,3 +12,11 @@ html {
     --light_mode--shadow: #3754AA;
     --just--blue: #1565C0;
 }
+
+/* calculator general styling */
+.calculator {
+    width: 375px;
+    height: 667px;
+    background-color: var(--light_mode--gray);
+    padding: 24px 20px;
+}
