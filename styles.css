@@ -6,3 +6,9 @@ html {
 *::after {
     box-shadow: inherit;
 }
+:root {
+    --light_mode--gray: #F1F3F6;
+    --light_mode--black: #333632;
+    --light_mode--shadow: #3754AA;
+    --just--blue: #1565C0;
+}
