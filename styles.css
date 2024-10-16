@@ -28,3 +28,10 @@ body {
     align-items: center;
     background-color: #D1DDE5;
 }
+
+/* mode area */
+.mode img {
+    width: 30px;
+    display: block;
+    margin-left: auto;
+}
