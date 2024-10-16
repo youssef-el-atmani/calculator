@@ -41,7 +41,7 @@ body {
     height: 116px;
     padding: 10px;
     border-radius: 15px;
-    background-color: var(--light_mode--gray);
+    background-color: var(--light_mode--gray); /*should be removed later*/
     filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754a91a);
     margin: 11px auto 67px;
 
@@ -51,4 +51,11 @@ body {
     flex: 1;
     border-radius: 10px;
     border: 2px solid var(--just--blue);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 44px;
+    padding-right: 44px;
+    font-size: 36px;
 }
