@@ -12,7 +12,11 @@ html {
     --light_mode--shadow: #3754AA;
     --just--blue: #1565C0;
 }
-
+/* External Fonts */
+@font-face {
+    font-family: 'Digital Numbers';
+    src: url(./fonts/Digital-Numbers/DigitalNumbers-Regular.ttf);
+}
 /* calculator general styling */
 .calculator {
     width: 375px;
@@ -58,4 +62,5 @@ body {
     padding-left: 44px;
     padding-right: 44px;
     font-size: 36px;
+    font-family: 'Digital Numbers';
 }
