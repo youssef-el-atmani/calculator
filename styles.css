@@ -20,3 +20,10 @@ html {
     background-color: var(--light_mode--gray);
     padding: 24px 20px;
 }
+/* center the calculator horizontally and vertically */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
