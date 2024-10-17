@@ -10,4 +10,10 @@
     8 - expand operands height to fill the available space
     9 - add shadow to operands-buttons
 
+## The operands buttons 
+    1 - set the background-color to light--gray
+    2 - set the border-radius to 15px
+    3 - set the font-size to 24px
+    4 - set the font-family to Orbitron;
+
 
