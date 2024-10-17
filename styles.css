@@ -80,6 +80,12 @@ body {
 .operands-row,
 .special {
     flex: 1;
+    display: flex;
+}
+
+.special button,
+.operands-row button {
+    flex: 1;
 }
 
 /* Operators-column */
