@@ -118,4 +118,5 @@ body {
     border-radius: 15px;
     border: 1px solid var(--just--blue);
     color: var(--just--blue);
+    font-family: Orbitron, sans-serif;
 }
