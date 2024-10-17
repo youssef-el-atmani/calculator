@@ -92,7 +92,7 @@ body {
     border-radius: 15px;
     border: 0;
     font-size: 24px;
-
+    font-family: Orbitron, sans-serif;
 }
 
 .operands-row .zero {
