@@ -24,3 +24,14 @@
         2 - add a 16 px gap between the operator-wrappers
         3 - add a light--gray background color to operator-wrappers
         4 - set a 15px border-radius
+    # Operators buttons
+        1 - Fill the available space of operator-wrapper
+        2 - add a light--gray background color to operator-wrappers
+        3 - set a 15px border-radius
+        4 - Push operator-button by 2px from the edges
+        5 - Add a 1px --just-blue solid border
+        6 - set the text-color to --just-blue
+        7 - Set the font-family to Orbitron
+        8 - Set the font-size to 24px
+
+    
