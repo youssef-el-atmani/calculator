@@ -67,4 +67,5 @@ body {
 /* Control Area */
 .control {
     height: 394px;
+    display: flex;
 }
