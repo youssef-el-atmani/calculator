@@ -90,6 +90,7 @@ body {
     filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754a91a);
     background-color: var(--light_mode--gray);
     border-radius: 15px;
+    font-size: 24px;
 
 }
 
