@@ -69,3 +69,12 @@ body {
     height: 394px;
     display: flex;
 }
+/* Operands-column */
+.operands-column {
+    flex: 3;
+}
+
+/* Operators-column */
+.operators-column {
+    flex: 1;
+}
