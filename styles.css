@@ -108,4 +108,5 @@ body {
 .operator-wrapper {
     flex: 1;
     background-color: var(--light_mode--gray);
+    border-radius: 15px;
 }
