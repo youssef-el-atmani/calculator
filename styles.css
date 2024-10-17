@@ -110,6 +110,7 @@ body {
     background-color: var(--light_mode--gray);
     border-radius: 15px;
     display: flex;
+    padding: 2px;
 }
 .operator {
     flex: 1;
