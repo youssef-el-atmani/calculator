@@ -90,6 +90,7 @@ body {
     color: var(--light_mode--black);
     background-color: var(--light_mode--gray);
     border-radius: 15px;
+    border: 0;
     font-size: 24px;
 
 }
