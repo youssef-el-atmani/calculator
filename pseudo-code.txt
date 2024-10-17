@@ -34,4 +34,32 @@
         7 - Set the font-family to Orbitron
         8 - Set the font-size to 24px
 
+
+## The things that will be changed when switching between modes (dark-and-light)
+    1 - calculator background-color
+    2 - mode-switcher img
+        - the img itself
+        - shadow colors
+    3 - display
+        - background-color
+        - text color
+        - shadow colors
+    4 - control buttons
+        - background color except for equal-button
+        - text color for operands only
+        - shadow colors
+    5 - equal button
+        - shadow colors
+
+#->maybe defining classes with the the following probable names
+    - light-calculator and dark-calculator
+        -- which will keep only the background color for the calculator
+    - switcher-light-shadow and switcher-dark-shadow classes,
+        -- will change only the background-color
+        -- the img should be changed by js by altering the src attribute
+    - display-outer-dark and display-outer-light
+        -- will have the background-color and shadow of outer-display-container
+
+    
+
     
