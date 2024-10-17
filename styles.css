@@ -4,7 +4,7 @@ html {
 *,
 *::before,
 *::after {
-    box-shadow: inherit;
+    box-sizing: inherit;
 }
 :root {
     --light_mode--gray: #F1F3F6;
