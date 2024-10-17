@@ -89,6 +89,9 @@ body {
     flex: 1;
 }
 
+.operands-row .zero {
+    flex: 2;
+}
 /* Operators-column */
 .operators-column {
     flex: 1;
