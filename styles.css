@@ -73,6 +73,12 @@ body {
 .operands-column {
     flex: 3;
     background-color: #e0c7b8; /* TO make editing easier, should be removed after */
+    display: flex;
+    flex-direction: column;
+}
+.operands-row,
+.special {
+    flex: 1;
 }
 
 /* Operators-column */
