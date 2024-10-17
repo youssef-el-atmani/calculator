@@ -1,0 +1,13 @@
+
+## the operands-column area
+    1 - set the control-area height
+    2 - align the two control-columns next to each other
+    3 - make the operands-column take 3/4 of the control width
+    4 - divide the available vertical space evenly on operands-column items
+    5 - Add a 16px gap between the operands-column rows
+    6 - divide the available space on each row of the operands-column evenly on its buttons
+    7 - add a 16 px gap between the items of each operands-column_row
+    8 - expand operands height to fill the available space
+    9 - add shadow to operands-buttons
+
+
