@@ -104,7 +104,6 @@ body {
 }
 /* Operators-column */
 .operators-column {
-    /* flex: 1; */
     width: 88px;
     display: flex;
     flex-direction: column;
