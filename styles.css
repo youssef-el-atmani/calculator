@@ -117,4 +117,5 @@ body {
     background-color: var(--light_mode--gray);
     border-radius: 15px;
     border: 1px solid var(--just--blue);
+    color: var(--just--blue);
 }
