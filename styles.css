@@ -72,6 +72,7 @@ body {
 /* Operands-column */
 .operands-column {
     flex: 3;
+    background-color: #e0c7b8; /* TO make editing easier, should be removed after */
 }
 
 /* Operators-column */
