@@ -87,6 +87,8 @@ body {
 .special button,
 .operands-row button {
     flex: 1;
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754a91a);
+
 }
 
 .operands-row .zero {
