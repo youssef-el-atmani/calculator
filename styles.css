@@ -88,6 +88,7 @@ body {
 .operands-row button {
     flex: 1;
     filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754a91a);
+    color: var(--light_mode--black);
     background-color: var(--light_mode--gray);
     border-radius: 15px;
     font-size: 24px;
