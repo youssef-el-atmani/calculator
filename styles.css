@@ -64,3 +64,7 @@ body {
     font-size: 36px;
     font-family: 'Digital Numbers';
 }
+/* Control Area */
+.control {
+    height: 394px;
+}
