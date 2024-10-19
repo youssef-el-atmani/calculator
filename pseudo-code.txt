@@ -50,15 +50,31 @@
         - shadow colors
     5 - equal button
         - shadow colors
+        - equal-button wrapper's background-color
 
 #->maybe defining classes with the the following probable names
-    - light-calculator and dark-calculator
+    - light--calculator and dark--calculator
         -- which will keep only the background color for the calculator
-    - switcher-light-shadow and switcher-dark-shadow classes,
+    - light--switcher-shadow and dark--switcher-shadow classes,
         -- will change only the background-color
         -- the img should be changed by js by altering the src attribute
-    - display-outer-dark and display-outer-light
+    - dark--outer-display and light--outer-display
         -- will have the background-color and shadow of outer-display-container
+    - light--inner-display and dark--inner-display
+        -- background-color of inner-display-color
+        -- display color "the digits color"
+    - dark--operand and light--operand
+        -- color of operands
+        -- background-color of operands
+        -- shadow of operands
+    - dark--operator-wrapper and light--operator-wrapper
+        -- background-color
+        -- shadow
+    - dark--operator and light--operator
+        -- background-color
+    - dark--equal-wrapper and light-equal-wrapper
+        -- background-color
+        -- shadow
 
     
 
