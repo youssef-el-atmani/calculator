@@ -1,0 +1,15 @@
+:root {
+    /* Universal Light-Dark_modes colors */
+    --just--blue: #1565C0;
+
+    /* Light mode colors */
+    --light_mode--gray: #F1F3F6;
+    --light_mode--black: #333632;
+    --light_mode--shadow: #3754AA;
+    --light_mode--just--blue__fortyPercent: #1565c066;
+
+    /* Dark mode colors */
+    --dark_mode--gray: #F1F3F6;
+    --dark_mode--black: #141518;
+    --dark_mode--black__tenPercent: #1415181a;
+}
