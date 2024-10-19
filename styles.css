@@ -130,4 +130,5 @@ body {
 .operator.equal {
     background-color: var(--just--blue);
     color: #FFFFFF;
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px rgba(55, 84, 169, 40%));
 }
