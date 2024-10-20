@@ -118,6 +118,7 @@ body {
     padding: 2px;
     filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754a91a);
 }
+.equal,
 .operator {
     flex: 1;
     background-color: var(--light_mode--gray);
@@ -127,7 +128,7 @@ body {
     font-family: Orbitron, sans-serif;
     font-size: 24px;
 }
-.operator.equal {
+.equal {
     background-color: var(--just--blue);
     color: #FFFFFF;
     filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px rgba(55, 84, 169, 40%));
