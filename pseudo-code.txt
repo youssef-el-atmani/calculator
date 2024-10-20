@@ -76,6 +76,90 @@
         -- background-color
         -- shadow
 
+
+## Dark-Light mode switching logic: pseudoCode
+    1 - let the light_mode be the default mode
+    2 - when user clicks on mode-switcher, the mode should be changed
+
+    <###    Maybe I'll create an object that will hold all those variables     ###>
+    3 - Declare variables that stores all the element that should be altered when mode is switched
+            -Declare a const var named calculatorContainer and initialize it with its related element
+            - Declare a const var named modeSwitcher and initialize it with the mode-img
+            - Declare a const var named outerDisplayContainer and initialize it with its related container
+            - Declare a const var named innerDisplayContainer and initialize it with its related container
+            - Declare a const arr named operandsList and stores in it all the buttons in operands-column
+            - Declare a const arr named operatorWrappersList and stores inside it all the operator-wrappers
+            - Declare a const arr named operatorsList and stores inside it all the operators
+            - Declare a const var named equalBtnWrapper and stores inside it the equal button
+    4 - Declare an obj named currentMode and add a `status: "light"`;
+    5 - Declare two functions switchToLightMode(obj) and switchToDarkMode(obj) that will take currentMode obj as argument
+            
+            ################################
+            switchToLightMode(mode) function:
+                For calculatorContainer
+                    remove the `.dark--calculator` class
+                    add `.light-calculator` class
+                For modeSwitcher
+                    change the modeSwitcher img to `.light-mode-switcher.png`
+                    remove the `.dark--switcher` class
+                    add the `.light--switcher` class
+                For outerDisplayContainer
+                    remove `.dark--outer-display` class
+                    add `.light--outer-display` class
+                For innerDisplayContainer
+                    remove  : .dark--inner-display
+                    add     : .light--inner-display
+                For each element in operandsList
+                    remove  : .dark--operand
+                    add     : .light--operand
+                For  operatorWrappersList
+                    remove  : .dark--operator-wrapper
+                    add     : .light--operator-wrapper
+                For  operatorsList
+                    remove  : .dark--operator
+                    add     : .light--operator
+                For  equalBtnWrapper
+                    remove  : .dark--equal-wrapper
+                    add     : .light--equal-wrapper 
+
+                change the mode.status key to `light`
+
+
+            
+            ################################
+            switchToDarkMode(mode) function:
+                For calculatorContainer
+                    remove `.light-calculator` class
+                    add the `.dark--calculator` class
+                For modeSwitcher
+                    change the modeSwitcher img to `.dark-mode-switcher.png`
+                    remove the `.light--switcher` class
+                    add the `.dark--switcher` class
+                For outerDisplayContainer
+                    remove `.light--outer-display` class
+                    add `.dark--outer-display` class
+                For innerDisplayContainer
+                    remove     : .light--inner-display
+                    add  : .dark--inner-display
+                For each element in operandsList
+                    remove     : .light--operand
+                    add  : .dark--operand
+                For  operatorWrappersList
+                    remove     : .light--operator-wrapper
+                    add  : .dark--operator-wrapper
+                For  operatorsList
+                    remove     : .light--operator
+                    add  : .dark--operator
+                For  equalBtnWrapper
+                    remove    : .light--equal-wrapper 
+                    add  : .dark--equal-wrapper
+
+
+                change the mode.status key to `dark`
+
+    6 - If user clicks modeSwitcher with `status: "light"` call switchToDarkMode() function
+    7 - Else If user clicks modeSwitcher with `status: "dark"` call switchToLightMode() function
+
     
 
     
