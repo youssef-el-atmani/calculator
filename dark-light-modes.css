@@ -1,22 +1,27 @@
 :root {
     /* Universal Light-Dark_modes colors */
     --just--blue: #1565C0;
+    --just--gray: #F1F3F6;
 
     /* Light mode colors */
-    --light_mode--gray: #F1F3F6;
     --light_mode--black: #333632;
-    --light_mode--shadow: #3754AA;
-    --light_mode--just--blue__fortyPercent: #1565c066;
 
     /* Dark mode colors */
-    --dark_mode--gray: #F1F3F6;
     --dark_mode--black: #141518;
+
+    /* Colors with __opacity */
+    --just--blue__fortyPercent: #1565c066;
+
     --dark_mode--black__tenPercent: #1415181a;
+    --dark_mode--black__fortyPercent: #14151866;
+
+    --light_mode--shadow__fortyPercent: #3754AA66;
+    --light_mode--shadow__tenPercent: #3754AA1a;
 }
 
 /* for calculator background */
 .light--calculator {
-    background-color: var(--light_mode--gray);
+    background-color: var(--just--gray);
 }
 .dark--calculator {
     background-image: linear-gradient(to bottom, #1A1B1F, #17181C);
@@ -24,67 +29,67 @@
 
 /* for mode switcher */
 .light--switcher {
-    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754aa66);
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px var(--light_mode--shadow__fortyPercent));
 }
 .dark--switcher {
-    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px #14151866);
+    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px var(--dark_mode--black__fortyPercent));
 }
 
 /* for display area */
 .dark--outer-display {
     background-color: var(--dark_mode--black);
-    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px #1415181a);
+    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px var(--dark_mode--black__tenPercent));
 }
 .light--outer-display {
-    background-color: var(--light_mode--gray);
-    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754aa1a);
+    background-color: var(--just--gray);
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px var(--light_mode--shadow__tenPercent));
 }
 
 .dark--inner-display {
     background-color: #202226;
-    color: var(--dark_mode--gray);
+    color: var(--just--gray);
 }
 .light--inner-display {
-    background-color: var(--light_mode--gray);
+    background-color: var(--just--gray);
     color: #000000;
 }
 
 /* Operands buttons */
 .dark--operand {
-    color: var(--dark_mode--gray);
+    color: var(--just--gray);
     background-color: var(--dark_mode--black);
-    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px #141518);
+    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px var(--dark_mode--black));
 }
 .light--operand {
     color: var(--light_mode--black);
-    background-color: var(--light_mode--gray);
-    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754AA1a);
+    background-color: var(--just--gray);
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px var(--light_mode--shadow__tenPercent));
 }
 
 /* Operators buttons */
 .dark--operator-wrapper {
     background-color: var(--dark_mode--black);
-    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px #141518);
+    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px var(--dark_mode--black));
 }
 .light--operator-wrapper {
-    background-color: var(--light_mode--gray);
-    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754AA1a);
+    background-color: var(--just--gray);
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px var(--light_mode--shadow__tenPercent));
 }
 
 .dark--operator {
     background-color: var(--dark_mode--black);
 }
 .light--operator {
-    background-color: var(--light_mode--gray);
+    background-color: var(--just--gray);
 }
 
 /* The Equal '=' button */
 .dark--equal-wrapper {
     background-color: var(--dark_mode--black);
-    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px #141518); 
+    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px var(--dark_mode--black)); 
 }
 .light--equal-wrapper {
-    background-color: var(--light_mode--gray);
-    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px var(--light_mode--just--blue__fortyPercent));
+    background-color: var(--just--gray);
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px var(--just--blue__fortyPercent));
 
 }
