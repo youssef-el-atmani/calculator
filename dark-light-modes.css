@@ -13,3 +13,78 @@
     --dark_mode--black: #141518;
     --dark_mode--black__tenPercent: #1415181a;
 }
+
+/* for calculator background */
+.light--calculator {
+    background-color: var(--light_mode--gray);
+}
+.dark--calculator {
+    background-image: linear-gradient(to bottom, #1A1B1F, #17181C);
+}
+
+/* for mode switcher */
+.light--switcher {
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754aa66);
+}
+.dark--switcher {
+    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px #14151866);
+}
+
+/* for display area */
+.dark--outer-display {
+    background-color: var(--dark_mode--black);
+    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px #1415181a);
+}
+.light--outer-display {
+    background-color: var(--light_mode--gray);
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754aa1a);
+}
+
+.dark--inner-display {
+    background-color: #202226;
+    color: var(--dark_mode--gray);
+}
+.light--inner-display {
+    background-color: var(--light_mode--gray);
+    color: #000000;
+}
+
+/* Operands buttons */
+.dark--operand {
+    color: var(--dark_mode--gray);
+    background-color: var(--dark_mode--black);
+    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px #141518);
+}
+.light--operand {
+    color: var(--light_mode--black);
+    background-color: var(--light_mode--gray);
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754AA1a);
+}
+
+/* Operators buttons */
+.dark--operator-wrapper {
+    background-color: var(--dark_mode--black);
+    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px #141518);
+}
+.light--operator-wrapper {
+    background-color: var(--light_mode--gray);
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754AA1a);
+}
+
+.dark--operator {
+    background-color: var(--dark_mode--black);
+}
+.light--operator {
+    background-color: var(--light_mode--gray);
+}
+
+/* The Equal '=' button */
+.dark--equal-wrapper {
+    background-color: var(--dark_mode--black);
+    filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px #141518); 
+}
+.light--equal-wrapper {
+    background-color: var(--light_mode--gray);
+    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px var(--light_mode--just--blue__fortyPercent));
+
+}
