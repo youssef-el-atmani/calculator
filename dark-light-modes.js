@@ -11,6 +11,11 @@ const equalBtnWrapper = document.querySelector('.equal-wrapper');
 
 const currentMode = {status: "dark"};
 
+modeSwitcher.addEventListener("click",()=>{
+    ((currentMode.status === "light")? switchToDarkMode(currentMode) : switchToLightMode(currentMode));
+});
+
+
 function switchToLightMode(mode){
     calculator.classList.remove('dark--calculator');
     calculator.classList.add('light--calculator');
@@ -85,3 +90,5 @@ function switchToDarkMode(mode){
     // Update the current mode status
     mode.status = "dark";
 }
+
+switchToLightMode(currentMode);
