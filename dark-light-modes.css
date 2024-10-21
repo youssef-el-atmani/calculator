@@ -60,12 +60,26 @@
     background-color: var(--dark_mode--black);
     filter: drop-shadow(5px 5px 10px #000000) drop-shadow(-5px -5px 10px var(--dark_mode--black));
 }
+.dark--operand:hover {
+    cursor: pointer;
+    background-color: #202226;
+}
+.dark--operand:active {
+    background-color: #202226af;
+}
+
 .light--operand {
     color: var(--light_mode--black);
     background-color: var(--just--gray);
     filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px var(--light_mode--shadow__tenPercent));
 }
-
+.light--operand:hover {
+    cursor: pointer;
+    background-color: #d1dde59a;
+}
+.light--operand:active {
+    background-color: #D1DDE5;
+}
 /* Operators buttons */
 .dark--operator-wrapper {
     background-color: var(--dark_mode--black);
@@ -79,8 +93,25 @@
 .dark--operator {
     background-color: var(--dark_mode--black);
 }
+.dark--operator:hover {
+    cursor: pointer;
+    background-color: #202226;
+}
+.dark--operator:active {
+    background-color: #06255f;
+    color: var(--just--gray);
+}
+
 .light--operator {
     background-color: var(--just--gray);
+}
+.light--operator:hover {
+    cursor: pointer;
+    background-color: #d1dde59a;
+}
+.light--operator:active {
+    background-color: #87c8f7;
+    color: var(--just--gray);
 }
 
 /* The Equal '=' button */
@@ -92,4 +123,12 @@
     background-color: var(--just--gray);
     filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px var(--just--blue__fortyPercent));
 
+}
+
+.equal:hover{
+    cursor: pointer;
+    background-color: #1e88e5;
+}
+.equal:active{
+    background-color: #0d47a1;
 }

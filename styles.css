@@ -39,6 +39,9 @@ body {
     display: block;
     margin-left: auto;
 }
+.mode img:hover {
+    cursor: pointer;
+}
 /* Display area */
 .display {
     height: 116px;
