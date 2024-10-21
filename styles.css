@@ -7,9 +7,6 @@ html {
     box-sizing: inherit;
 }
 :root {
-    --light_mode--gray: #F1F3F6;
-    --light_mode--black: #333632;
-    --light_mode--shadow: #3754AA;
     --just--blue: #1565C0;
 }
 /* style reset */
@@ -25,7 +22,6 @@ button {
 .calculator {
     width: 375px;
     height: 667px;
-    background-color: var(--light_mode--gray);
     padding: 24px 20px;
 }
 /* center the calculator horizontally and vertically */
@@ -42,15 +38,12 @@ body {
     width: 30px;
     display: block;
     margin-left: auto;
-    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754aa66);
 }
 /* Display area */
 .display {
     height: 116px;
     padding: 10px;
     border-radius: 15px;
-    background-color: var(--light_mode--gray); /*should be removed later*/
-    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754a91a);
     margin: 11px auto 67px;
 
     display: flex;
@@ -90,9 +83,6 @@ body {
 .special button,
 .operands-row button {
     flex: 1;
-    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754a91a);
-    color: var(--light_mode--black);
-    background-color: var(--light_mode--gray);
     border-radius: 15px;
     border: 0;
     font-size: 24px;
@@ -113,16 +103,13 @@ body {
 .equal-wrapper,
 .operator-wrapper {
     flex: 1;
-    background-color: var(--light_mode--gray);
     border-radius: 15px;
     display: flex;
     padding: 2px;
-    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px #3754a91a);
 }
 .equal,
 .operator {
     flex: 1;
-    background-color: var(--light_mode--gray);
     border-radius: 15px;
     border: 1px solid var(--just--blue);
     color: var(--just--blue);
@@ -132,5 +119,4 @@ body {
 .equal {
     background-color: var(--just--blue);
     color: #FFFFFF;
-    filter: drop-shadow(-5px -5px 10px #FFFFFF) drop-shadow(5px 5px 10px rgba(55, 84, 169, 40%));
 }
