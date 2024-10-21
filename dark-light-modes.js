@@ -9,6 +9,7 @@ const operatorWrappersList = [...document.querySelectorAll('.operator-wrapper')]
 const operatorsList = [...document.querySelectorAll('.operator')];
 const equalBtnWrapper = document.querySelector('.equal-wrapper');
 
+const currentMode = {status: "dark"};
 
 function switchToLightMode(mode){
     calculator.classList.remove('dark--calculator');
